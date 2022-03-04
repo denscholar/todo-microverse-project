@@ -16,6 +16,8 @@
   "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "react/require-default-props": ["off"],
+    "react/state-in-constructor": ["off", "always"],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off"
